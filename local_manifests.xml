@@ -11,10 +11,10 @@
     <project path="device/oneplus/oscaro" name="android_device_oneplus_oscaro" remote="Tonklaistonton" revision="evox" />
 
     <!-- Device - Common -->
-    <project path="device/oneplus/sm6375-common" name="android_device_oneplus_sm8250-common" remote="LineageOS" revision="lineage-22.1" />
+    <project path="device/oneplus/sm6375-common" name="android_device_oneplus_sm6375-common" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Kernel -->
-    <project path="kernel/oneplus/sm6375" name="android_kernel_oneplus_sm8250" remote="LineageOS" revision="lineage-22.1" />
+    <project path="kernel/oneplus/sm6375" name="android_kernel_oneplus_sm6375" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Vendor -->
     <project path="vendor/oneplus/oscaro" name="proprietary_vendor_oneplus_oscaro" remote="TheMuppets" revision="lineage-22.1" />
