@@ -7,9 +7,6 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
 
-    <!-- Removals -->
-
-    <!-- Repos -->
     <!-- Device -->
     <project path="device/oneplus/oscaro" name="android_device_oneplus_oscaro" remote="Tonklaistonton" revision="evox" />
 
