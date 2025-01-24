@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="Tonklaistonton" fetch="https://github.com/Tonklaistonton" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/oneplus/oscaro" name="android_device_oneplus_oscaro" remote="Tonklaistonton" revision="evox" />
+
+    <!-- Device - Common -->
+    <project path="device/oneplus/sm6375-common" name="android_device_oneplus_sm8250-common" remote="LineageOS" revision="lineage-22.1" />
+
+    <!-- Kernel -->
+    <project path="kernel/oneplus/sm6375" name="android_kernel_oneplus_sm8250" remote="LineageOS" revision="lineage-22.1" />
+
+    <!-- Vendor -->
+    <project path="vendor/oneplus/oscaro" name="proprietary_vendor_oneplus_oscaro" remote="TheMuppets" revision="lineage-22.1" />
+
+    <!-- Vendor - Common -->
+    <project path="vendor/oneplus/sm6375-common" name="proprietary_vendor_oneplus_sm6375-common" remote="TheMuppets" revision="lineage-22.1" />
+
+    <!-- Hardware -->
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="LineageOS" revision="lineage-22.1" />
+
+</manifest>
