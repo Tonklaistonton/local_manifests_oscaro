@@ -8,7 +8,7 @@
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
 
     <!-- Device -->
-    <project path="device/realme/oscar" name="android_device_realme_oscarlineage" remote="Tonklaistonton" revision="evox" />
+    <project path="device/realme/oscar" name="android_device_realme_oscarlineage" remote="Tonklaistonton" revision="Evox" />
 
     <!-- Device - Common -->
     <project path="device/realme/sm6375-common" name="android_device_realme_sm6375-common" remote="LineageOS" revision="lineage-22.1" />
