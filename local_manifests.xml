@@ -6,6 +6,7 @@
     <remote name="Tonklaistonton" fetch="https://github.com/Tonklaistonton" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+    <remote name="pjgowtham" fetch="https://gitlab.com/pjgowtham" clone-depth="1" />
 
     <!-- Device -->
     <project path="device/realme/oscar" name="android_device_realme_oscarlineage" remote="Tonklaistonton" revision="Evox" />
@@ -24,5 +25,8 @@
 
     <!-- Hardware -->
     <project path="hardware/oplus" name="android_hardware_oplus" remote="LineageOS" revision="lineage-22.1" />
+
+    <!-- Oplus camera-->
+    <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="pjgowtham" revision="lineage-22.0" />
 
 </manifest>
