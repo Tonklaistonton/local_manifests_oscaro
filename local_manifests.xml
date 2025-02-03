@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Generated using sounddrill31/actions_generate_local_manifests -->
-
-    <!-- Remotes -->
-    <remote name="Tonklaistonton" fetch="https://github.com/Tonklaistonton" clone-depth="1" />
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
-    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
-    <remote name="pjgowtham" fetch="https://gitlab.com/pjgowtham" clone-depth="1" />
-    
-    <!-- Device -->
-    <project path="device/realme/oscar" name="android_device_realme_oscarlineage" remote="Tonklaistonton" revision="Evox" />
-
-    <!-- Device - Common -->
-    <project path="device/realme/sm6375-common" name="android_device_realme_sm6375-common" remote="LineageOS" revision="lineage-22.1" />
-
-    <!-- Kernel -->
-    <project path="kernel/realme/sm6375" name="android_kernel_realme_sm6375" remote="LineageOS" revision="lineage-22.1" />
-
-    <!-- Vendor -->
-    <project path="vendor/realme/oscar" name="proprietary_vendor_realme_oscar" remote="TheMuppets" revision="lineage-22.1" />
-
-    <!-- Vendor - Common -->
-    <project path="vendor/realme/sm6375-common" name="proprietary_vendor_realme_sm6375-common" remote="TheMuppets" revision="lineage-22.1" />
-
-    <!-- Hardware -->
-    <project path="hardware/oplus" name="android_hardware_oplus" remote="pjgowtham" revision="lineage-22.1" />
-
-    <!-- Oplus camera-->
-    <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="pjgowtham" revision="lineage-22.0" />
+  <project path="device/realme/oscar" name="Tonklaistonton/android_device_realme_oscarlineage" remote="github" revision="Evox" clone-depth="1" />
+  <project path="device/realme/sm6375-common" name="LineageOS/android_device_realme_sm6375-common" remote="github" revision="lineage-22.1" clone-depth="1" />
+  <project path="kernel/realme/sm6375" name="LineageOS/android_kernel_realme_sm6375" remote="github" revision="lineage-22.1" clone-depth="1" />
+  <project path="vendor/realme/oscar" name="TheMuppets/proprietary_vendor_realme_oscar" remote="github" revision="lineage-22.1" clone-depth="1" />
+  <project path="vendor/realme/sm6375-common" name="TheMuppets/proprietary_vendor_realme_sm6375-common" remote="github" revision="lineage-22.1" clone-depth="1" />  
+  <project path="vendor/oplus/camera" name="pjgowtham/proprietary_vendor_oplus_camera" remote="gitlap" revision="lineage-22.0" clone-depth="1" />  
+  <project path="hardware/oplus" name="pjgowtham/android_hardware_oplus" remote="github" revision="lineage-22.1" clone-depth="1" />
 
 </manifest>
+
