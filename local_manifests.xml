@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="gitlab" fetch="https://gitlab.com" />
+  <remote remote="gitlab" fetch="https://gitlab.com" />
   <project path="device/realme/oscar" name="Tonklaistonton/android_device_realme_oscarlineage" remote="github" revision="Evox" clone-depth="1" />
   <project path="device/realme/sm6375-common" name="LineageOS/android_device_realme_sm6375-common" remote="github" revision="lineage-22.1" clone-depth="1" />
   <project path="kernel/realme/sm6375" name="LineageOS/android_kernel_realme_sm6375" remote="github" revision="lineage-22.1" clone-depth="1" />
