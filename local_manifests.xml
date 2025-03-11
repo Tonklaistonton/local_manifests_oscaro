@@ -7,6 +7,6 @@
   <project path="vendor/realme/oscar" name="TheMuppets/proprietary_vendor_realme_oscar" remote="github" revision="lineage-22.1" clone-depth="1" />
   <project path="vendor/realme/sm6375-common" name="TheMuppets/proprietary_vendor_realme_sm6375-common" remote="github" revision="lineage-22.1" clone-depth="1" />  
   <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="github" revision="lineage-22.1" clone-depth="1" />
-
+  <project path="packages/apps/RealmeParts" name="HyperTeam/android_packages_apps_RealmeParts" remote="github" revision="lineage-21" clone-depth="1" />
 </manifest>
 
