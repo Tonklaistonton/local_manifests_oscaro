@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="github" fetch="https://github.com/" />
   
-  <project path="device/realme/oscar" name="Tonklaistonton/android_device_realme_oscar" remote="github" revision="lineage-23.0" clone-depth="1" />
-  <project path="device/realme/sm6375-common" name="Realme-SM6375-devs/android_device_realme_sm6375-common" remote="github" revision="lineage-23.0" clone-depth="1" />
+  <project path="device/realme/oscar" name="Tonklaistonton/android_device_realme_oscar" remote="github" revision="derpfest-A16" clone-depth="1" />
+  <project path="device/realme/sm6375-common" name="Realme-SM6375-devs/android_device_realme_sm6375-common" remote="github" revision="derpfest-A16" clone-depth="1" />
   <project path="kernel/realme/sm6375" name="Realme-SM6375-devs/android_kernel_realme_sm6375" remote="github" revision="lineage-23.0" clone-depth="1" />
   <project path="vendor/realme/oscar" name="Realme-SM6375-devs/proprietary_vendor_realme_oscar" remote="github" revision="lineage-23.0" clone-depth="1" />
   <project path="vendor/realme/sm6375-common" name="Realme-SM6375-devs/proprietary_vendor_realme_sm6375-common" remote="github" revision="lineage-23.0" clone-depth="1" />  
