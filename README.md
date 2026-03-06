@@ -1,7 +1,7 @@
 To initialize your local repository use
 ---------------------------------------
 
-    git clone https://github.com/Tonklaistonton/local_manifests_oscaro.git -b wip .repo/local_manifests
+    git clone https://github.com/Tonklaistonton/local_manifests_oscaro.git -b havoc16 .repo/local_manifests
     
 
 Then to sync up:
